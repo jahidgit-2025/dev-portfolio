@@ -1,4 +1,7 @@
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -40,7 +43,12 @@
     line-height: 30px;
     font-weight: 400;
     color: #757575;
+    margin-top: 30px;
 }
+.text-center{
+    text-align: center;
+}
+
 /* header */
 .header{
     background-image: url("/images/developer.png"), url("/images/header_bg.png");
@@ -114,4 +122,21 @@ main{
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
+}
+.items-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* skills styling */
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
