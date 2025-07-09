@@ -183,3 +183,26 @@ main{
 .resume-btn{
     margin-top: 50px;
 }
+
+/* footer styling */
+footer{
+    display: flex;
+    gap: 116px;
+    padding: 130px 230px;
+}
+.footer-description{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.social-media a{
+    margin-right: 24px;
+}
+footer input[type="text"], input[type="email"], footer textarea{
+    padding: 18px 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+}
